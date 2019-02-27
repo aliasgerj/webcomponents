@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Components</title>
+    <style>
+        div {
+            color: blue;
+        }
+        x-dropdown {
+            --border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>Global text</div>
+    <x-dropdown title='Hello from Attribute'>
+        Hello from Web Component HTML
+    </x-dropdown>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
